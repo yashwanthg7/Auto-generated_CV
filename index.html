@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <div class="left">
+            <form>
+                <!-- Name , Email , Phone , Github , Linkedin -->
+                <div class="sameline">
+                    <p>Name : </p>
+                    <input type="text" id="name" placeholder=" name">
+                </div>
+                <div class="sameline">
+                    <p>Email :   </p>
+                    <input type="email" id="email" placeholder=" Email">
+                </div>
+                <div class="sameline">
+                    <p>Phone : </p>
+                    <input type="text" id="Mobile" placeholder=" Phone">
+                </div>
+                <div class="sameline">
+                    <p>Github : </p>
+                    <input type="url" id="Github" placeholder=" Github">
+                </div>
+                <div class="sameline">
+                    <p>Linkedin : </p>
+                    <input type="url" id="linkedin" placeholder=" Linkedin">
+                </div>
+                <fieldset>
+                    <legend>Education</legend>
+                    <!-- Degree , College , Starting Year , Passing Year , CGPA -->
+                    <div class="sameline">
+                        <p>Degree : </p>
+                        <input type="text" id="degree" placeholder=" Degree">
+                    </div>
+                    <div class="sameline">
+                        <p>College : </p>
+                        <input type="text" id="college" placeholder=" College">
+                    </div>
+                    <div class="sameline">
+                        <p>Starting Year : </p>
+                        <input type="text" id="startingyear" placeholder=" Starting Year">
+                    </div>
+                    <div class="sameline">
+                        <p>Passing Year</p>
+                        <input type="text" id="passingyear" placeholder=" Passing Year">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Skills</legend>
+                    <!-- skills -->
+                    <div class="sameline">
+                        <p>Skills : </p>
+                        <textarea required placeholder="Skills eg. HTML, CSS"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Projects</legend>
+                    <!-- Project , Description , Link -->
+                    <div class="sameline">
+                        <p>Project : </p>
+                        <input type="text" id="project" placeholder=" Project">
+                    </div>
+                    <div class="sameline">
+                        <p>Description : </p>
+                        <textarea required placeholder="Write in HTML format"></textarea>
+                    </div>
+                    <div class="sameline">
+                        <p>Link : </p>
+                        <input type="url" id="projectlink" placeholder=" Link">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Experience</legend>
+                    <!-- Company , Designation , Duration , Description -->
+                    <div class="sameline">
+                        <p>Company : </p>
+                        <input type="text" id="company" placeholder=" Company">
+                    </div>
+                    <div class="sameline">
+                        <p>Designation : </p>
+                        <input type="text" id="designation" placeholder=" Designation">
+                    </div>
+                    <div class="sameline">
+                        <p>Duration : </p>
+                        <input type="text" id="duration" placeholder=" Duration">
+                    </div>
+                    <div class="sameline">
+                        <p>Description : </p>
+                        <textarea required placeholder="Write in HTML format"></textarea>
+                    </div>
+
+                </fieldset>
+                <button type="submit" class="btn">submit</button>
+                <button type="reset" class="btn">reset</button>
+                <button class="btn" onclick="handleLeft()"><<</button>
+            </form>
+        </div>
+        <div class="right">
+            <div class="block1">
+                <!-- Name -->
+                <!--Email , Phone , Github , Linkedin  -->
+            </div>
+            <div class="block2">
+                <h2>Education</h2>
+            </div>
+            <div class="block3">
+            </div>
+            <div class="block4">
+                <h2>Project</h2>
+            </div>
+            <div class="block5">
+                <h2>Experience</h2>
+            </div>
+            <button class="btn print" onclick="handlePrint()">Print</button>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
