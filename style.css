@@ -98,12 +98,10 @@ input, textarea{
 }
 input{
     height: 25px;
-    margin-left: auto;
 }
 
 textarea{
     height: 50px;
-    margin-left: auto;
 }
 .sameline{
     display: flex;
