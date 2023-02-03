@@ -82,7 +82,7 @@ main>.right>.block1{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
     color: gray;
     width: 60vw;
 }
@@ -94,17 +94,39 @@ input, textarea{
     border-radius: 5px;
     border: none;
     margin-bottom: 4px;
-    margin-left: auto;
+    
 }
 input{
     height: 25px;
-    margin-left: auto;
 }
 
 textarea{
     height: 50px;
-    margin-left: auto;
 }
 .sameline{
     display: flex;
 }
+
+#name_resume{
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+
+#github_resume , #linkedin_resume, #projectlink_resume{
+    color: rgb(0, 74, 233);
+    text-decoration: underline;
+}
+h2:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+
+.block2 , .block3 , .block4 , .block5{
+    margin-right: auto;
+}
+
