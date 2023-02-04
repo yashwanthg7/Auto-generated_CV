@@ -82,7 +82,7 @@ main>.right>.block1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
     color: gray;
     width: 60vw;
 }
@@ -94,6 +94,7 @@ input, textarea{
     border-radius: 5px;
     border: none;
     margin-bottom: 4px;
+    margin-left: auto;
     
 }
 input{
@@ -107,26 +108,70 @@ textarea{
     display: flex;
 }
 
+#phone_resume{
+    color: rgb(0, 74, 233);
+}
+
 #name_resume{
     text-align: center;
     justify-content: center;
     font-size: xx-large;
     font-weight: bolder;
     color: black;
+    display: flex;
 }
 
 #github_resume , #linkedin_resume, #projectlink_resume{
     color: rgb(0, 74, 233);
     text-decoration: underline;
 }
-h2:after
+
+#email_resume{
+    color: rgb(0, 74, 233);
+}
+
+/* h2:after
 {
     content:' ';
     display:block;
     border:2px solid black;
-}
+} */
 
 .block2 , .block3 , .block4 , .block5{
     margin-right: auto;
 }
+.right h2{
+    text-decoration-line:underline;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+}
 
+#startingyear_resume {
+    float: left;
+    width: 40%;
+}
+  
+#passingyear_resume {
+    float: right;
+    width: 45%;
+}
+
+#project_resume{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#projectlink_resume{
+    margin-top: 10px;
+}
+
+.block5 h2{
+    margin-bottom: 10px;
+}
+
+#company_resume, #designation_resume , #description_resume , #project_resume, #projectdescription_resume , #projectlink_resume
+{
+    margin-bottom: 3px;
+}

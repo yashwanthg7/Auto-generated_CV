@@ -94,7 +94,7 @@
                     </div>
                     <div class="sameline">
                         <p>Description : </p>
-                        <textarea id="cprojectdescription" placeholder="Write in HTML format"></textarea>
+                        <textarea id="description" placeholder="Write in HTML format"></textarea>
                     </div>
                 </fieldset>
                 <button type="submit" class="btn" onclick="handleSubmit()">submit</button>
@@ -106,22 +106,18 @@
             <div class="block1">
                 <!-- Name -->
                 <!--Email , Phone , Github , Linkedin  -->
-                <p id="name_resume"></p>
+                <p id="name_resume"></p>                
                 <p id="email_resume"></p>
-                <span>&#124;</span>
                 <p id="phone_resume"></p>
-                <span>&#124;</span>
-                <br>
                 <a id="github_resume" href="github_resume"></a>
-                <span>&#124;</span>
                 <a id="linkedin_resume" href="linkedin_resume"></a>
             </div>
             <div class="block2">
                 <h2>Education</h2>
-                <hr>
                 <p id="college_resume"></p>
                 <p id="degree_resume"></p>
                 <p id="startingyear_resume"></p>
+                &#8209;
                 <p id="passingyear_resume"></p>
             </div>
             <div class="block3">
@@ -139,8 +135,7 @@
                 <p id="company_resume"></p>
                 <p id="designation_resume"></p>
                 <p id="duration_resume"></p>
-                <p id="github_resume"></p>
-                <p id="cprojectdescription_resume"></p>
+                <p id="description_resume"></p>
             </div>
             <button class="btn print" onclick="handlePrint()">Print</button>
         </div>

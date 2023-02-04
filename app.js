@@ -35,7 +35,7 @@ const designation = document.getElementById("designation");
 
 const duration = document.getElementById("duration");
 
-const cprojectdescription = document.getElementById("cprojectdescription");
+const description = document.getElementById("description");
 
 
 
@@ -89,11 +89,11 @@ function handleSubmit(e) {
   const designation_resume = document.getElementById("designation_resume");
   designation_resume.innerHTML = designation.value;
 
-  const durtion_resume = document.getElementById("durtion_resume");
-  durtion_resume.innerHTML = duration.value;
+  const duration_resume = document.getElementById("duration_resume");
+  duration_resume.innerHTML = duration.value;
 
-  const cprojectdescription_resume = document.getElementById("cprojectdescription_resume");
-  cprojectdescription_resume.innerHTML = cprojectdescription.value;
+  const description_resume = document.getElementById("description_resume");
+  description_resume.innerHTML = description.value;
 
 }
 
