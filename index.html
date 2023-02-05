@@ -10,7 +10,7 @@
 </head>
 <body>
     <main>
-        <div class="left">
+        <div class="left" id="left">
             <form>
                 <!-- Name , Email , Phone , Github , Linkedin -->
                 <div class="sameline">
@@ -109,8 +109,8 @@
                 <p id="name_resume"></p>                
                 <p id="email_resume"></p>
                 <p id="phone_resume"></p>
-                <a id="github_resume" href="github_resume"></a>
-                <a id="linkedin_resume" href="linkedin_resume"></a>
+                <a id="github_resume" src="github_resume"></a>
+                <a id="linkedin_resume" src="linkedin_resume"></a>
             </div>
             <div class="block2">
                 <h2>Education</h2>
@@ -137,7 +137,9 @@
                 <p id="duration_resume"></p>
                 <p id="description_resume"></p>
             </div>
-            <button class="btn print" onclick="handlePrint()">Print</button>
+            
+
+            <button id="myButton" style="display:none;" onclick="handlePrint()">Print</button>
         </div>
     </main>
 

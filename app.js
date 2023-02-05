@@ -102,10 +102,21 @@ function handleLeft() {
   const right = document.querySelector(".right");
   const print = document.querySelector(".print");
   // write more codes here
+  document.getElementById("left").onclick = function () {
+    document.getElementById("left").style.display = "none";
+  }
+  document.getElementById("myButton").style.display = "block";
+
 }
 function handlePrint() {
   const right = document.querySelector(".right");
   const left = document.querySelector(".left");
   const print = document.querySelector(".print");
   // write more codes here
+
+  
+  window.print();
+  
+  
 }
+
